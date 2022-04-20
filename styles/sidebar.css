@@ -1,0 +1,48 @@
+.sidebar{
+    background-color: white;
+    position: fixed;
+    left:0;
+    top: 55px;
+    bottom:0;
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    z-index:101;
+}
+.sidebar-item{
+    margin-bottom: 1px;
+    height: 74px;
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+
+}
+.sidebar-item:hover{
+    background-color: #dad9d9;
+    cursor: pointer;
+}
+.home{
+    height: 24px;
+}
+.explore{
+    height: 24px;
+
+}
+.subscriptions{
+    height: 24px;
+
+}
+.library{
+    height: 24px;
+}
+.originals{
+    height: 24px;
+
+}
+.youtube-music{
+    height: 24px;
+
+}
